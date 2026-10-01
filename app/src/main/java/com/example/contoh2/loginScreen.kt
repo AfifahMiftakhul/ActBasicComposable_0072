@@ -97,6 +97,25 @@ fun LoginScreen(modifier: Modifier = Modifier) {
                     .background(Color.White),
                 contentAlignment = Alignment.Center
             ) {
+                Image(
+                    painter = painterResource(id = R.drawable.kucing3),
+                    contentDescription = "Foto Lingkaran",
+                    contentScale = ContentScale.Crop,
+                    modifier = Modifier.fillMaxSize()
+                )
+            }
+        }
+    }
+}
+
+@Preview(showBackground = true)
+@Composable
+fun LoginScreenPreview() {
+    Contoh2Theme {
+        LoginScreen()
+    }
+}
+            }
 
 
 
