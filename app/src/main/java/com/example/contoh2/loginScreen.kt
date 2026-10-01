@@ -55,5 +55,14 @@ fun LoginScreen(modifier: Modifier = Modifier) {
                 fontWeight = FontWeight.Bold,
                 color = Color.White
             )
+            Text(
+                text = "Ini adalah halaman login",
+                fontSize = 16.sp,
+                color = Color.LightGray
+            )
+
+            Spacer(modifier = Modifier.height(16.dp))
+
+
 
 
