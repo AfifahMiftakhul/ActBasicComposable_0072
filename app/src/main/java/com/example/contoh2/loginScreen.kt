@@ -26,10 +26,24 @@ fun LoginScreen(modifier: Modifier = Modifier) {
     Box(
         modifier = modifier.fillMaxSize()
     ) {
-        // 1. Background kucing1 menutupi seluruh layar
+
         Image(
             painter = painterResource(id = R.drawable.kucing1),
             contentDescription = "Background",
             contentScale = ContentScale.Crop,
             modifier = Modifier.fillMaxSize()
         )
+        Box(
+            modifier = Modifier
+                .fillMaxSize()
+                .background(Color.Black.copy(alpha = 0.35f))
+        )
+
+        Column(
+            modifier = Modifier
+                .fillMaxSize()
+                .padding(horizontal = 24.dp, vertical = 20.dp),
+            horizontalAlignment = Alignment.CenterHorizontally,
+            verticalArrangement = Arrangement.Center
+        ) {
+
