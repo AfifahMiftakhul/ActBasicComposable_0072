@@ -29,3 +29,13 @@ import androidx.compose.ui.unit.sp
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.contoh2.ui.theme.Contoh2Theme
 
+@Composable
+fun ContohColumn(modifier: Modifier = Modifier) {
+    Column(
+        modifier = modifier.padding(top = 20.dp, start = 20.dp)
+    ) {
+        Text("Hello")
+        Text("World")
+    }
+}
+
