@@ -20,3 +20,16 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.contoh2.ui.theme.Contoh2Theme
+
+@Composable
+fun LoginScreen(modifier: Modifier = Modifier) {
+    Box(
+        modifier = modifier.fillMaxSize()
+    ) {
+        // 1. Background kucing1 menutupi seluruh layar
+        Image(
+            painter = painterResource(id = R.drawable.kucing1),
+            contentDescription = "Background",
+            contentScale = ContentScale.Crop,
+            modifier = Modifier.fillMaxSize()
+        )
