@@ -52,3 +52,9 @@ fun ContohRow(modifier: Modifier = Modifier) {
     }
 }
 
+@Composable
+fun TataletakRow(modifier: Modifier = Modifier) {
+    Column(modifier = modifier.fillMaxWidth().padding(top = 10.dp, start = 10.dp, end = 10.dp)) {
+    }
+}
+
