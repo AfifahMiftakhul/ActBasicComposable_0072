@@ -52,23 +52,7 @@ fun ContohRow(modifier: Modifier = Modifier) {
     }
 }
 
-@Composable
-fun TataletakRow(modifier: Modifier = Modifier) {
-    Column(modifier = modifier.fillMaxWidth().padding(top = 10.dp, start = 10.dp, end = 10.dp)) {
-    }
-}
 
-@Composable
-fun TataletakRow(modifier: Modifier = Modifier) {
-    Column(modifier = modifier.fillMaxWidth().padding(top = 10.dp, start = 10.dp, end = 10.dp)) {
-        // Baris 1
-        Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceEvenly) {
-            Text(text = "Komponen1Baris1")
-            Text(text = "Komponen2Baris1")
-            Text(text = "Komponen3Baris1")
-        }
-    }
-}
 
 @Composable
 fun TataletakRow(modifier: Modifier = Modifier) {
@@ -88,11 +72,7 @@ fun TataletakRow(modifier: Modifier = Modifier) {
     }
 }
 
-@Composable
-fun TataletakRowColumn(modifier: Modifier = Modifier) {
-    Row(modifier = modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceEvenly) {
-    }
-}
+
 
 @Composable
 fun TataletakRowColumn(modifier: Modifier = Modifier) {
@@ -101,6 +81,12 @@ fun TataletakRowColumn(modifier: Modifier = Modifier) {
             Text(text = "Komponen1Kolom1")
             Text(text = "Komponen2Kolom1")
             Text(text = "Komponen3Kolom1")
+
+        }
+        Column {
+            Text(text = "Komponen1Kolom2")
+            Text(text = "Komponen2Kolom2")
+            Text(text = "Komponen3Kolom2")
         }
     }
 }
