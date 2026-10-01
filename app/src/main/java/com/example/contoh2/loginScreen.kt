@@ -88,6 +88,16 @@ fun LoginScreen(modifier: Modifier = Modifier) {
                 fontWeight = FontWeight.Medium,
                 color = Color.Cyan
             )
+            Spacer(modifier = Modifier.height(24.dp))
+
+            Box(
+                modifier = Modifier
+                    .size(220.dp)
+                    .clip(CircleShape)
+                    .background(Color.White),
+                contentAlignment = Alignment.Center
+            ) {
+
 
 
 
