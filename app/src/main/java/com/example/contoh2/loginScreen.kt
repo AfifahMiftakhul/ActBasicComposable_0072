@@ -63,6 +63,15 @@ fun LoginScreen(modifier: Modifier = Modifier) {
 
             Spacer(modifier = Modifier.height(16.dp))
 
+            Image(
+                painter = painterResource(id = R.drawable.kucing2),
+                contentDescription = "Logo",
+                modifier = Modifier.size(90.dp)
+            )
+
+            Spacer(modifier = Modifier.height(12.dp))
+
+
 
 
 
