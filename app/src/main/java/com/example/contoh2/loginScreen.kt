@@ -71,6 +71,25 @@ fun LoginScreen(modifier: Modifier = Modifier) {
 
             Spacer(modifier = Modifier.height(12.dp))
 
+            Text(
+                text = "Nama",
+                fontSize = 14.sp,
+                color = Color.LightGray
+            )
+            Text(
+                text = "Afifah",
+                fontSize = 22.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.White
+            )
+            Text(
+                text = "072",
+                fontSize = 18.sp,
+                fontWeight = FontWeight.Medium,
+                color = Color.Cyan
+            )
+
+
 
 
 
